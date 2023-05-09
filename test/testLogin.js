@@ -41,6 +41,7 @@ describe('Login to Luma Demostore', () => {
                 // Assert
                 information.should.contain('Test Testsson');
             } finally {
+                // Quits when done
                 await driver.quit();
             }
         });
